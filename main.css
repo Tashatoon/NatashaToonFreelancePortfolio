@@ -1,0 +1,102 @@
+body {
+  background: url("/marcel-strauss-rTsTP-SiMY4-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/**Homepage**/
+
+/**About**/
+
+
+/**Contact Us**/
+
+
+nav {
+    float: right;
+    padding: 75px 25px;
+  }
+  
+  nav ul li {
+    width: auto;
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(235, 155, 235);
+    padding-left: 30px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+width: 25%;
+display: inline-block;
+}
+.portfolio-header, .skills-header, .services-header {
+  font-size: 2em;
+  color: rgb(233, 71, 233);
+}
+.home-portfolio-piece {
+  padding: 10%;
+}
+.language-wrapper, #services, .skills-header, .portfolio-header, .contact-info {
+  text-align: center;
+  text-transform: uppercase;
+}
+.language-wrapper p {
+ display: inline;
+}
+
+.services-header {
+  font-size: 2em;
+}
+.contact-info ul li {
+  list-style: none;
+
+}
+  @media only screen and (max-width: 480px) {
+    nav ul li a {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 10px;
+      color: rgb(235, 155, 235);
+      padding-left: 10px;
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+    }
+    
+  } 
+
+@media only screen and (min-width:481px) and (max-width: 768px) {
+  nav ul li a {
+    width: auto;
+display: inline-block;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+} 
+
+@media only screen and (min-width:769px) and (max-width: 1040px) {
+  nav ul li a {
+    width: auto;
+display: inline-block;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+}
