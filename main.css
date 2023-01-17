@@ -11,14 +11,17 @@ body {
 }
 .about-content-wrapper {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: 20px;
-  line-height: 35px;
+  line-height: 33px;
+}
+.about-bio {
+  text-align: left;
 }
 .about-content-wrapper img {
   width:auto;
-  border-radius: 30%;
+  border-radius: 5%;
 }
 nav {
     float: right;
@@ -35,7 +38,7 @@ nav {
     text-decoration: none;
     font-size: 15px;
     color: rgb(235, 155, 235);
-    padding-left: 35px;
+    padding-left: 15px;
   }
   
   ul {
@@ -44,8 +47,9 @@ nav {
   }
 
   img {
-width: 25%;
-display: inline-block;
+width: 15%;
+padding-right: 50%;
+
   }
 
 #skills article {
@@ -105,7 +109,7 @@ button {
 }
 
 .services-header {
-  text-align: center;
+  text-align: right;
   font-size: 2em;
 }
 
@@ -116,7 +120,7 @@ button {
 
 #services, .services-items {
 display: grid;
-grid-template-columns: auto auto;
+grid-template-columns: 100% 100%;
 padding-left: 5%;
 }
 
@@ -129,9 +133,11 @@ padding-left: 5%;
   font-size: 3.75em;
   margin-bottom: 15px;
 }
+#contact, .content-wrapper, .contact-info{
+text-align: center;
+}
 .contact-info ul li {
   list-style: none;
-
 }
 
 .contact-info img {
@@ -139,11 +145,11 @@ padding-left: 5%;
 }
 
 
-  @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     nav ul li a {
       text-transform: uppercase;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 13px;
       color: rgb(235, 155, 235);
       padding-left: 10px;
     }
@@ -151,6 +157,11 @@ padding-left: 5%;
       display: flex;
       justify-content: center;
     }
+    #skills {
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 5%;
+      }
     .services-header {
       text-align:left;
       font-size: 2em; 
@@ -208,14 +219,47 @@ padding-left: 5%;
     }
 } 
 
-@media only screen and (min-width:769px) and (max-width: 1040px) {
+@media only screen and (min-width:769px) and (max-width: 1020px) {
   nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(235, 155, 235);
+    padding-left: 10px;
 
-display: inline-block;
   }
   
   ul {
     display: flex;
     justify-content: center;
   }
+  .services-header {
+    text-align:left;
+    font-size: 2em;
+  }
+  #services, .services-items {
+    display: grid;
+    grid-template-columns: 100% 100%;
+        padding-left: 5%;
+    }
+    
+    #services {
+      text-align: center;
+      margin: 0;
+    }
+    
+    #services i {
+      font-size: 3.75em;
+      margin-bottom: 15px;
+    }
+    #contact {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+    }
+    
+    .contact-info img {
+      width: 95%;
+    }
 }
