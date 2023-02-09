@@ -5,6 +5,18 @@ body {
   background-position: center;
   color: white;
 }
+.light-mode {
+  background-color: white;
+  background: url("img/white:grey.png");
+  color: black;
+}
+.light-mode body {
+  background: url("img/white:grey.png");
+  padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
 .home-title {
   text-align: center;
 }
@@ -142,10 +154,15 @@ box-sizing: border-box;
 }
 
 textarea {
-  width: 75%;
+width: 75%;
+height: 150px;
 padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: rgb(233, 71, 233);
 }
 .content-wrapper, .contact-info{
 width:auto;
