@@ -1,6 +1,5 @@
 body {
   width: 90%;
-  max-width: 1200px;
   background: url("img/marcel-strauss-rTsTP-SiMY4-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -20,12 +19,11 @@ body {
   text-align: left;
 }
 .about-content-wrapper img {
-  width:auto;
+  width:100%;
   border-radius: 5%;
 }
 nav {
     float: right;
-    padding: 75px 25px;
   }
   
   nav ul li {
@@ -47,7 +45,8 @@ nav {
   }
 
   img {
-width: 15%;
+width: 30%;
+max-width: 100%;
 padding-right: 50%;
 
   }
@@ -59,7 +58,7 @@ padding-right: 50%;
 
   #skills .skill-items, .tool-items {
   display: grid;
-  grid-template-columns: auto auto;
+ 
 
   }
 
@@ -81,13 +80,13 @@ padding-right: 50%;
   text-align: center;
 }
 #work article {
-  width: 60%;
+
   margin: 30px 0;
 }
 #work .home-portfolio-piece {
   display: grid;
-  grid-template-columns: auto auto;
-  padding: 10%;
+margin: 0 auto;
+ 
 }
 #work img {
   width: 100%;
@@ -132,14 +131,110 @@ padding-left: 5%;
   font-size: 3.75em;
   margin-bottom: 15px;
 }
-#contact, .content-wrapper, .contact-info{
+
+.content-wrapper, .contact-info{
+width:auto;
 text-align: center;
+}
+#contact {
+  width:110%;
+  text-align: center;
 }
 .contact-info ul li {
   list-style: none;
 }
 
 .contact-info img {
-  width: 95%;
+  width: 100%;
 }
-/*re-do media queries*/
+iframe {
+  padding-top: 5%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .home-title {
+    width: 100%;
+  }
+  .about-content-wrapper {
+    width: 100%;
+  }
+  
+  #services, .services-items {
+    width: 75%;
+    max-width: 100%;
+}
+#work img {
+  width: 100%;
+}
+iframe {
+  width: 90%;
+}
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  .content-wrapper {
+    width: 60%;
+  }
+  .home-title {
+    float: center;
+    width: 170%;
+  }
+  .about-content-wrapper {
+    width: 100%;
+  }
+  #skills .skill-items, .tool-items {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  #services, .services-items {
+    width: 90%;
+   max-width: 100%;
+}
+#contact {
+  width:150%;
+}
+#work img {
+  width: 100%;
+}
+iframe {
+  width: 100%;
+}
+}
+@media screen and (min-width: 993px) and (max-width: 1280px) {
+  .content-wrapper {
+    width: 55%;
+  }
+  .home-title h2 {
+  width: 170%;
+  display:flex;
+ align-content: center;
+ justify-content: center;
+  }
+  .home-title h3 {
+    width: 190%;
+    display:flex;
+   align-content: center;
+   justify-content:center; 
+  }
+  .about-content-wrapper {
+    width: 130%;
+  }
+  #skills .skill-items, .tool-items {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  #services, .services-items {
+    width: 90%;
+   max-width: 1200px;
+}
+#contact {
+  width:150%;
+}
+#work img {
+  width: 100%;
+}
+iframe {
+  width: 100%;
+}
+}
