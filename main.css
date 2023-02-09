@@ -41,19 +41,18 @@ nav {
   }
   
   ul {
-  
     justify-content: center;
   }
 
   img {
 width: 30%;
 max-width: 100%;
-padding-right: 50%;
+padding-right: 0%;
 
   }
 
 #skills article {
-  width: 80%;
+  width: 40%;
   margin: 30px 0;
 }
 
@@ -171,6 +170,10 @@ iframe {
     width: 75%;
     max-width: 100%;
 }
+.portfolio-header, .skills-header, .services-header {
+  text-align: center;
+  margin: 0 auto;
+}
 #work img {
   width: 100%;
 }
@@ -193,6 +196,7 @@ iframe {
   #skills .skill-items, .tool-items {
     display: grid;
     grid-template-columns: auto auto;
+   justify-content: center;
   }
   #work .home-portfolio-piece {
     display: grid;
@@ -202,6 +206,11 @@ iframe {
   #services, .services-items {
     width: 90%;
    max-width: 100%;
+}
+
+.portfolio-header, .skills-header, .services-header {
+  text-align: center;
+  margin: 0 auto;
 }
 #contact {
   width:150%;
@@ -213,37 +222,37 @@ iframe {
   width: 100%;
 }
 }
-@media screen and (min-width: 993px) and (max-width: 1600px) {
+@media screen and (min-width: 993px) and (max-width: 2500px) {
   .content-wrapper {
-    width: 55%;
+    width: 70%;
   }
-  .home-title h2 {
-  width: 170%;
-  display:flex;
- align-content: center;
- justify-content: center;
-  }
-  .home-title h3 {
-    width: 190%;
-    display:flex;
-   align-content: center;
-   justify-content:center; 
+  .home-title {
+    float: center;
+    width: 170%;
   }
   .about-content-wrapper {
-    width: 130%;
+    width: 100%;
   }
-  #skills .skill-items, .tool-items {
+  #skills .skill-items, .tool-items {  
     display: grid;
     grid-template-columns: auto auto;
+   float: left;
+  }
+  .skills-header {
+    text-align:left;
+   
+  }
+  .portfolio-header {
+    text-align: center;
   }
   #work .home-portfolio-piece {
     display: grid;
   grid-template-columns: auto auto;
   }
-
+   
   #services, .services-items {
     width: 90%;
-   max-width: 1200px;
+   max-width: 100%;
 }
 #contact {
   width:150%;
