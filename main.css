@@ -1,5 +1,5 @@
 body {
-  width: 90%;
+  width: 70%;
   background: url("img/marcel-strauss-rTsTP-SiMY4-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -134,7 +134,19 @@ padding-left: 5%;
   margin-bottom: 15px;
 }
 /*style form*/
+input {
+width: 75%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
 
+textarea {
+  width: 75%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
 .content-wrapper, .contact-info{
 width:auto;
 text-align: center;
@@ -148,7 +160,9 @@ text-align: center;
 }
 
 .contact-info img {
-  width: 100%;
+  width: auto;
+  display: inline-flex;
+
 }
 iframe {
   padding-top: 5%;
