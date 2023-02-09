@@ -22,6 +22,7 @@ body {
   width:100%;
   border-radius: 5%;
 }
+/*Navigation move up*/
 nav {
     float: right;
   }
@@ -40,7 +41,7 @@ nav {
   }
   
   ul {
-    display: flex;
+  
     justify-content: center;
   }
 
@@ -61,7 +62,7 @@ padding-right: 50%;
  
 
   }
-
+/*Move skills over to a lot of empty space*/
 #skills {
   text-align: center;
   margin: 0;
@@ -73,6 +74,8 @@ padding-right: 50%;
 }
 
 .portfolio-header, .skills-header, .services-header {
+  text-align: center;
+  margin: 0 auto;
   font-size: 2em;
   color: rgb(233, 71, 233);
 }
@@ -131,6 +134,7 @@ padding-left: 5%;
   font-size: 3.75em;
   margin-bottom: 15px;
 }
+/*style form*/
 
 .content-wrapper, .contact-info{
 width:auto;
@@ -150,7 +154,8 @@ text-align: center;
 iframe {
   padding-top: 5%;
 }
-
+/*Github update (desktop responsive)*/
+/*information should be stacked vertically*/
 
 @media screen and (max-width: 600px) {
   .home-title {
@@ -159,7 +164,9 @@ iframe {
   .about-content-wrapper {
     width: 100%;
   }
-  
+  ul {
+    justify-content: center;
+  }
   #services, .services-items {
     width: 75%;
     max-width: 100%;
@@ -187,6 +194,11 @@ iframe {
     display: grid;
     grid-template-columns: auto auto;
   }
+  #work .home-portfolio-piece {
+    display: grid;
+  grid-template-columns: auto auto;
+  }
+   
   #services, .services-items {
     width: 90%;
    max-width: 100%;
@@ -201,7 +213,7 @@ iframe {
   width: 100%;
 }
 }
-@media screen and (min-width: 993px) and (max-width: 1280px) {
+@media screen and (min-width: 993px) and (max-width: 1600px) {
   .content-wrapper {
     width: 55%;
   }
@@ -224,6 +236,11 @@ iframe {
     display: grid;
     grid-template-columns: auto auto;
   }
+  #work .home-portfolio-piece {
+    display: grid;
+  grid-template-columns: auto auto;
+  }
+
   #services, .services-items {
     width: 90%;
    max-width: 1200px;
