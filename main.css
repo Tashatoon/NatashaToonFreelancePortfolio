@@ -7,13 +7,17 @@ body {
 }
 .light-mode {
   background-color: white;
-  background: url("img/white:grey.png");
+  background: url("img/whitebackground.png");
+  background-size: cover;
+  background-position: center;
   color: black;
 }
 .light-mode body {
-  background: url("img/white:grey.png");
+  background: url("img/whitebackground.png");
   padding: 25px;
+  background-size: cover;
     background-color: black;
+    background-position: center;
     color: white;
     font-size: 25px;
 }
@@ -60,28 +64,19 @@ nav {
 width: 30%;
 max-width: 100%;
 padding-right: 0%;
-
   }
 
 #skills article {
-  width: 40%;
-  margin: 30px 0;
+  width: 30%;
+  margin: 30px 5px;
 }
 
-  #skills .skill-items, .tool-items {
-  display: grid;
- 
-
-  }
 /*Move skills over to a lot of empty space*/
-#skills {
-  text-align: center;
-  margin: 0;
-}
+
 
 #skills i {
   font-size: 3.75em;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 .portfolio-header, .skills-header, .services-header {
@@ -91,17 +86,20 @@ padding-right: 0%;
   color: rgb(233, 71, 233);
 }
 .portfolio-header {
+  margin-top: auto;
   text-align: center;
 }
-#work article {
 
+#work article {
   margin: 30px 0;
 }
+
+
 #work .home-portfolio-piece {
-  display: grid;
+display: grid;
 margin: 0 auto;
- 
 }
+
 #work img {
   width: 100%;
 }
@@ -145,7 +143,7 @@ padding-left: 5%;
   font-size: 3.75em;
   margin-bottom: 15px;
 }
-/*style form*/
+
 input {
 width: 75%;
 padding: 12px 20px;
@@ -184,8 +182,7 @@ text-align: center;
 iframe {
   padding-top: 5%;
 }
-/*Github update (desktop responsive)*/
-/*information should be stacked vertically*/
+
 
 @media screen and (max-width: 600px) {
   .home-title {
