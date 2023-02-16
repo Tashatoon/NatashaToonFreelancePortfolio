@@ -1,5 +1,4 @@
 body {
-  
   background: url("img/marcel-strauss-rTsTP-SiMY4-unsplash.jpg");
   background-size: cover;
   background-position: center;
@@ -17,7 +16,6 @@ body {
   padding: 25px;
   background-size: cover;
     background-color: black;
-    background-position: center;
     color: white;
     font-size: 25px;
 }
@@ -45,7 +43,7 @@ nav {
   
   nav ul li {
     width: 100%;
-    display: block;
+    list-style: none;
   }
   
   nav ul li a {
@@ -66,6 +64,7 @@ nav {
     padding-bottom: 0%;
   }
 
+
   #skills .skill-items, .tool-items {  
     display: grid;
     grid-template-columns: auto auto;
@@ -85,6 +84,10 @@ nav {
 #skills i {
   font-size: 3.75em;
   margin-bottom: 0px;
+}
+
+.project-link {
+  display: block;
 }
 
 .portfolio-header, .skills-header, .services-header {
@@ -114,7 +117,6 @@ margin: 0 auto;
 }
 
 button {
-  display: block;
   padding: 5px 20px;
   font-size: 15px;
   cursor: pointer;
@@ -221,6 +223,21 @@ iframe {
 }
 
 @media screen and (min-width: 601px) and (max-width: 992px) {
+  .light-mode {
+    background-color: white;
+    background: url("img/whitebackground.png");
+    background-size: cover;
+    color: black;
+  }
+  .light-mode body {
+    background: url("img/whitebackground.png");
+    padding: 25px;
+    background-size: cover;
+      background-color: black;
+      color: white;
+      font-size: 25px;
+  }
+  
   .content-wrapper {
     width: 60%;
   }
