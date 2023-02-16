@@ -188,8 +188,7 @@ text-align: center;
 
 .contact-info img {
   width: auto;
-  display: inline-flex;
-
+  display: block;
 }
 iframe {
   padding-top: 5%;
