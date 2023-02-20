@@ -19,6 +19,13 @@ body {
     color: white;
     font-size: 25px;
 }
+.content-wrapper .portfolio-header {
+  width: 90%;
+max-width: 1200px;
+}
+header img {
+  max-width: 300px;
+}
 .home-title {
   font-size: 25px;
   text-align: center;
@@ -35,10 +42,9 @@ body {
   width:100%;
   border-radius: 5%;
 }
-/*Navigation move up*/
-nav {
- 
 
+nav {
+ display: inline;
   }
   
   nav ul li {
@@ -51,33 +57,32 @@ nav {
     text-decoration: none;
     font-size: 20px;
     color: rgb(235, 155, 235);
-    padding-left: 15px;
+    padding-left: 5px;
   }
   
   ul {
     justify-content: center;
   }
-
-  img {
-    width: 25%;
-    max-width: 100%;
-    padding-bottom: 0%;
-  }
-
-
-  #skills .skill-items, .tool-items {  
-    display: grid;
-    grid-template-columns: auto auto;
-  }
-
-#skills article {
-  width: 30%;
-  margin: 30px 5px;
+footer ul {
+  justify-content: center;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
+  img {
+    max-width: 100%;
+  }
+
+
 /*Move skills over to a lot of empty space*/
+.skill-items article {
+  margin: auto 0 auto 
+}
 .skill-items {
-  font-size: 1em;
+  font-size: 1.3em;
+  text-align: center;
   
 }
 
@@ -95,6 +100,9 @@ nav {
   margin: 0 auto;
   font-size: 2em;
   color: rgb(233, 71, 233);
+}
+.portfolio article figure {
+  margin: 1rem 0;
 }
 .portfolio-header {
   margin-top: auto;
@@ -138,13 +146,6 @@ button {
   margin: 30px 0;
 }
 
-#services, .services-items {
-display: grid;
-grid-template-columns: 100% 100%;
-font-size: 25px;
-padding-left: 5%;
-}
-
 #services {
   text-align: center;
   margin: 0;
@@ -173,13 +174,8 @@ box-sizing: border-box;
 input[type=submit] {
   background-color: rgb(233, 71, 233);
 }
-.content-wrapper, .contact-info{
-width:auto;
-font-size: 25px;
-text-align: center;
-}
+
 #contact {
-  width:110%;
   text-align: center;
 }
 .contact-info ul li {
@@ -188,10 +184,10 @@ text-align: center;
 
 .contact-info img {
   width: auto;
-  display: block;
 }
 iframe {
-  padding-top: 5%;
+width: 100%;
+overflow: hidden;
 }
 
 
@@ -205,6 +201,7 @@ iframe {
   ul {
     justify-content: center;
   }
+  
   #services, .services-items {
     width: 75%;
     max-width: 100%;
@@ -217,7 +214,8 @@ iframe {
   width: 100%;
 }
 iframe {
-  width: 90%;
+  width: 100%;
+overflow: hidden;
 }
 }
 
@@ -236,7 +234,11 @@ iframe {
       color: white;
       font-size: 25px;
   }
-  
+  nav {
+ display: block;
+
+  }
+
   .content-wrapper {
     width: 60%;
   }
@@ -268,13 +270,14 @@ iframe {
   margin: 0 auto;
 }
 #contact {
-  width:150%;
+  width: 100%;
 }
 #work img {
   width: 100%;
 }
 iframe {
   width: 100%;
+overflow: hidden;
 }
 }
 @media screen and (min-width: 993px) and (max-width: 2500px) {
@@ -310,12 +313,13 @@ iframe {
    max-width: 100%;
 }
 #contact {
-  width:150%;
+  width:100%;
 }
 #work img {
   width: 100%;
 }
 iframe {
   width: 100%;
+  overflow: hidden;
 }
 }
