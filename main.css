@@ -1,3 +1,5 @@
+/* BEM Block,Element, Modifier*/
+
 body {
   background: url("img/marcel-strauss-rTsTP-SiMY4-unsplash.jpg");
   background-size: cover;
@@ -15,54 +17,51 @@ body {
   background: url("img/whitebackground.png");
   padding: 25px;
   background-size: cover;
-    background-color: black;
-    color: white;
-    font-size: 25px;
+  background-color: black;
+  color: white;
 }
-.content-wrapper .portfolio-header {
+.content-wrapper,
+.portfolio-header {
   width: 90%;
-max-width: 1200px;
+  max-width: 1200px;
 }
 header img {
-  max-width: 300px;
+  max-width: 100%;
 }
 .home-title {
-  font-size: 25px;
   text-align: center;
 }
 .about-content-wrapper {
   justify-content: left;
-  font-size: 25px;
   line-height: 33px;
 }
 .about-bio {
   text-align: left;
 }
 .about-content-wrapper img {
-  width:100%;
+  width: 100%;
   border-radius: 5%;
 }
 
 nav {
- display: inline;
-  }
-  
-  nav ul li {
-    width: 100%;
-    list-style: none;
-  }
-  
-  nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(235, 155, 235);
-    padding-left: 5px;
-  }
-  
-  ul {
-    justify-content: center;
-  }
+  display: inline;
+}
+
+nav ul li {
+  width: 100%;
+  list-style: none;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(235, 155, 235);
+}
+
+ul {
+  justify-content: center;
+}
 footer ul {
   justify-content: center;
   padding: 0;
@@ -71,19 +70,16 @@ footer ul {
   margin-bottom: 2rem;
 }
 
-  img {
-    max-width: 100%;
-  }
+img {
+  max-width: 100%;
+}
 
-
-/*Move skills over to a lot of empty space*/
 .skill-items article {
-  margin: auto 0 auto 
+  margin: auto 0 auto;
 }
 .skill-items {
   font-size: 1.3em;
   text-align: center;
-  
 }
 
 #skills i {
@@ -95,15 +91,15 @@ footer ul {
   display: block;
 }
 
-.portfolio-header, .skills-header, .services-header {
+.portfolio-header,
+.skills-header,
+.services-header {
   text-align: center;
   margin: 0 auto;
   font-size: 2em;
   color: rgb(233, 71, 233);
 }
-.portfolio article figure {
-  margin: 1rem 0;
-}
+
 .portfolio-header {
   margin-top: auto;
   text-align: center;
@@ -113,11 +109,10 @@ footer ul {
   margin: 30px 0;
 }
 
-
 #work .home-portfolio-piece {
   font-size: 1.3em;
-display: grid;
-margin: 0 auto;
+  display: grid;
+  margin: 0 auto;
 }
 
 #work img {
@@ -125,6 +120,7 @@ margin: 0 auto;
 }
 
 button {
+  width: 100%;
   padding: 5px 20px;
   font-size: 15px;
   cursor: pointer;
@@ -157,21 +153,21 @@ button {
 }
 
 input {
-width: 75%;
-padding: 12px 20px;
-margin: 8px 0;
-box-sizing: border-box;
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 textarea {
-width: 75%;
-height: 100px;
-padding: 12px 20px;
-margin: 8px 0;
-box-sizing: border-box;
+  width: 75%;
+  height: 100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: rgb(233, 71, 233);
 }
 
@@ -186,14 +182,17 @@ input[type=submit] {
   width: auto;
 }
 iframe {
-width: 100%;
-overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
-
 @media screen and (max-width: 600px) {
+  body {
+    padding: 0%;
+  }
   .home-title {
     width: 100%;
+    padding: 30px 0 30px 0;
   }
   .about-content-wrapper {
     width: 100%;
@@ -201,22 +200,26 @@ overflow: hidden;
   ul {
     justify-content: center;
   }
-  
-  #services, .services-items {
+
+  #services,
+  .content-wrapper {
     width: 75%;
     max-width: 100%;
-}
-.portfolio-header, .skills-header, .services-header {
-  text-align: center;
-  margin: 0 auto;
-}
-#work img {
-  width: 100%;
-}
-iframe {
-  width: 100%;
-overflow: hidden;
-}
+  }
+
+  .portfolio-header,
+  .skills-header,
+  .services-header {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #work img {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+    overflow: hidden;
+  }
 }
 
 @media screen and (min-width: 601px) and (max-width: 992px) {
@@ -230,13 +233,11 @@ overflow: hidden;
     background: url("img/whitebackground.png");
     padding: 25px;
     background-size: cover;
-      background-color: black;
-      color: white;
-      font-size: 25px;
+    background-color: black;
+    color: white;
   }
   nav {
- display: block;
-
+    display: block;
   }
 
   .content-wrapper {
@@ -249,36 +250,39 @@ overflow: hidden;
   .about-content-wrapper {
     width: 100%;
   }
-  #skills .skill-items, .tool-items {
+  #skills .skill-items,
+  .tool-items {
     display: grid;
     grid-template-columns: auto auto;
-   justify-content: center;
-   
+    justify-content: center;
   }
   #work .home-portfolio-piece {
     display: grid;
-  grid-template-columns: auto;
+    grid-template-columns: auto;
   }
-   
-  #services, .services-items {
-    width: 90%;
-   max-width: 100%;
-}
 
-.portfolio-header, .skills-header, .services-header {
-  text-align: center;
-  margin: 0 auto;
-}
-#contact {
-  width: 100%;
-}
-#work img {
-  width: 100%;
-}
-iframe {
-  width: 100%;
-overflow: hidden;
-}
+  #services,
+  .services-items {
+    width: 90%;
+    max-width: 100%;
+  }
+
+  .portfolio-header,
+  .skills-header,
+  .services-header {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #contact {
+    width: 100%;
+  }
+  #work img {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+    overflow: hidden;
+  }
 }
 @media screen and (min-width: 993px) and (max-width: 2500px) {
   .content-wrapper {
@@ -291,35 +295,35 @@ overflow: hidden;
   .about-content-wrapper {
     width: 100%;
   }
-  #skills .skill-items, .tool-items {  
+  #skills .skill-items,
+  .tool-items {
     display: grid;
     grid-template-columns: auto auto;
-   
   }
   .skills-header {
-    text-align:left;
-   
+    text-align: left;
   }
   .portfolio-header {
     text-align: center;
   }
   #work .home-portfolio-piece {
     display: grid;
-  grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
   }
-   
-  #services, .services-items {
+
+  #services,
+  .services-items {
     width: 90%;
-   max-width: 100%;
-}
-#contact {
-  width:100%;
-}
-#work img {
-  width: 100%;
-}
-iframe {
-  width: 100%;
-  overflow: hidden;
-}
+    max-width: 100%;
+  }
+  #contact {
+    width: 100%;
+  }
+  #work img {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+    overflow: hidden;
+  }
 }
