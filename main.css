@@ -65,14 +65,13 @@ ul {
 }
 footer ul {
   justify-content: center;
-  padding: 0;
   display: flex;
   gap: 2rem;
   margin-bottom: 2rem;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .skill-items article {
@@ -132,7 +131,6 @@ section#skills {
 
 button {
   width: 100%;
-  padding: 5px 20px;
   font-size: 15px;
   cursor: pointer;
   text-align: center;
@@ -210,14 +208,21 @@ iframe {
   }
   nav ul li {
     padding-bottom: 10px;
-  }
-  ul {
     text-align: center;
+  }
+
+  button {
+    width: 25%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #services,
   .content-wrapper {
-    max-width: 100%;
+    width: 100%;
   }
 
   .portfolio-header,
@@ -280,8 +285,7 @@ iframe {
 
   #services,
   .services-items {
-    width: 90%;
-    max-width: 100%;
+    width: 100%;
   }
 
   .portfolio-header,
@@ -331,8 +335,7 @@ iframe {
 
   #services,
   .services-items {
-    width: 90%;
-    max-width: 100%;
+    width: 100%;
   }
   #contact {
     width: 100%;
