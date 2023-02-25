@@ -208,6 +208,9 @@ iframe {
   .about-content-wrapper {
     width: 100%;
   }
+  nav ul li {
+    padding-bottom: 10px;
+  }
   ul {
     text-align: center;
   }
@@ -221,6 +224,7 @@ iframe {
   .skills-header,
   .services-header {
     text-align: center;
+    padding-top: 15px;
     margin: 0 auto;
   }
   #work img {
@@ -241,7 +245,6 @@ iframe {
   }
   .light-mode body {
     background: url("img/whitebackground.png");
-    padding: 25px;
     background-size: cover;
     background-color: black;
     color: white;
