@@ -26,8 +26,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-header img {
-  width: 100%;
+.content-wrapper img {
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .home-title {
   text-align: center;
@@ -211,8 +214,7 @@ iframe {
     width: 100%;
   }
   nav {
-    display: flex;
-    justify-content: space-between;
+    display: inline;
   }
 
   nav ul li {
