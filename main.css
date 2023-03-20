@@ -27,7 +27,7 @@ body {
   margin: 0 auto;
 }
 header img {
-  max-width: 100%;
+  width: 100%;
 }
 .home-title {
   text-align: center;
@@ -211,22 +211,22 @@ iframe {
     width: 100%;
   }
   nav {
-    display: inline;
+    display: flex;
+    justify-content: space-between;
   }
 
   nav ul li {
     width: 100%;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     list-style: none;
   }
 
   button {
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   #services,
@@ -258,4 +258,7 @@ iframe {
 }
 
 @media screen and (min-width: 769px) {
+  header img {
+    width: auto;
+  }
 }
