@@ -195,7 +195,7 @@ iframe {
   overflow: hidden;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 320px) {
   body {
     padding: 0%;
   }
@@ -216,6 +216,8 @@ iframe {
 
   nav ul li {
     width: 100%;
+    font-size: 2em;
+    text-align: center;
     list-style: none;
   }
 
@@ -253,4 +255,7 @@ iframe {
     width: 100%;
     overflow: hidden;
   }
+}
+
+@media screen and (min-width: 769px) {
 }
