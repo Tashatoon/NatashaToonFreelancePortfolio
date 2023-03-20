@@ -45,7 +45,7 @@ header img {
 }
 
 nav {
-  display: inline;
+  display: inline-block;
 }
 
 nav ul li {
@@ -210,14 +210,17 @@ iframe {
   .about-content-wrapper {
     width: 100%;
   }
+  nav {
+    display: inline;
+  }
+
   nav ul li {
-    padding: 0%;
-    padding-bottom: 15px;
-    text-align: center;
+    width: 100%;
+    list-style: none;
   }
 
   button {
-    width: 50%;
+    width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -242,99 +245,6 @@ iframe {
   }
   .home-portfolio-piece {
     padding: 10%;
-  }
-  #work img {
-    width: 100%;
-  }
-  iframe {
-    width: 100%;
-    overflow: hidden;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    padding: 0%;
-  }
-  .home-title {
-    width: 100%;
-    padding: 30px 0 30px 0;
-  }
-  .about-content-wrapper img {
-    width: 80%;
-  }
-  .about-content-wrapper {
-    width: 100%;
-  }
-  nav ul li {
-    padding-bottom: 15px;
-    text-align: center;
-  }
-
-  button {
-    width: 25%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #services,
-  .content-wrapper {
-    width: 100%;
-  }
-
-  .portfolio-header,
-  .skills-header,
-  .services-header {
-    text-align: center;
-    padding-top: 15px;
-    margin: 0 auto;
-  }
-  #work img {
-    width: 100%;
-  }
-  iframe {
-    width: 100%;
-    overflow: hidden;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  body {
-    padding: 0%;
-  }
-  .home-title {
-    width: 100%;
-    padding: 30px 0 30px 0;
-  }
-  .about-content-wrapper {
-    width: 100%;
-  }
-  nav ul li {
-    padding-bottom: 15px;
-    text-align: center;
-  }
-
-  button {
-    width: 25%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #services,
-  .content-wrapper {
-    width: 100%;
-  }
-
-  .portfolio-header,
-  .skills-header,
-  .services-header {
-    text-align: center;
-    padding-top: 15px;
-    margin: 0 auto;
   }
   #work img {
     width: 100%;
