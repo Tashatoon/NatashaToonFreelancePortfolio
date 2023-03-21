@@ -45,7 +45,7 @@ body {
 }
 
 nav {
-  display: inline-block;
+  display: inline;
 }
 
 nav ul li {
@@ -199,6 +199,9 @@ iframe {
   body {
     padding: 0%;
   }
+  nav ul li a {
+    font-size: 0.7em;
+  }
   .home-title {
     width: 100%;
     padding: 30px 0 30px 0;
@@ -207,6 +210,8 @@ iframe {
   .about-content-wrapper img {
     width: 80%;
     border-radius: 5%;
+    position: relative;
+    left: 10%;
   }
   .about-content-wrapper {
     width: 100%;
@@ -270,6 +275,25 @@ iframe {
 
 @media screen and (min-width: 769px) {
   header img {
-    width: auto;
+    width: 100%;
+  }
+  nav ul li a {
+    font-size: 1.5em;
+  }
+  .home-title h2 {
+    font-size: 2em;
+  }
+  .home-title h3 {
+    font-size: 1.5em;
+  }
+  .about-content-wrapper {
+    width: 100%;
+  }
+  .about-bio h2 {
+    font-size: 3em;
+  }
+  .about-bio p {
+    font-size: 2.5em;
+    line-height: 55px;
   }
 }
