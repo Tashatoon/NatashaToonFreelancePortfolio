@@ -27,10 +27,7 @@ body {
   margin: 0 auto;
 }
 .content-wrapper img {
-  width: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 .home-title {
   text-align: center;
@@ -225,7 +222,8 @@ iframe {
   }
 
   button {
-    width: 100%;
+    width: 50%;
+    padding: 1%;
     margin: auto;
     display: flex;
     justify-content: center;
