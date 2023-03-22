@@ -280,6 +280,18 @@ iframe {
   header img {
     width: 100%;
   }
+  nav {
+    display: inline;
+  }
+  nav ul li {
+    width: 100%;
+    font-size: 1.5em;
+    padding: 0%;
+    text-align: center;
+    position: relative;
+    right: 3%;
+    list-style: none;
+  }
   nav ul li a {
     font-size: 1.2em;
   }
@@ -293,11 +305,15 @@ iframe {
     width: 100%;
   }
   .about-bio h2 {
-    font-size: 3em;
+    font-size: 1.9em;
   }
   .about-bio p {
-    font-size: 2.5em;
-    line-height: 55px;
+    font-size: 1.4em;
+    line-height: 45px;
+  }
+  .skill-items {
+    display: flex;
+    justify-content: space-around;
   }
 }
 
