@@ -131,7 +131,7 @@ section#skills {
 
 button {
   width: 100%;
-  font-size: 15px;
+  font-size: 2em;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -143,7 +143,7 @@ button {
 }
 .services-header {
   text-align: right;
-  font-size: 32px;
+  font-size: 2.5em;
 }
 
 #services article {
@@ -183,29 +183,32 @@ input[type="submit"] {
 #contact {
   text-align: center;
 }
+.contact-info h3 {
+  font-size: 2em;
+}
 .contact-info ul li {
   list-style: none;
 }
 
 .contact-info img {
-  width: auto;
+  width: 150%;
 }
 iframe {
   width: 100%;
   overflow: hidden;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 480px) {
   body {
     padding: 0%;
   }
   nav ul li a {
-    font-size: 0.7em;
+    font-size: 0.5em;
   }
   .home-title {
     width: 100%;
     padding: 30px 0 30px 0;
-    font-size: 1.7em;
+    font-size: 1em;
   }
   .about-content-wrapper img {
     width: 80%;
@@ -229,7 +232,7 @@ iframe {
 
   nav ul li {
     width: 100%;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 0%;
     text-align: center;
     position: relative;
@@ -238,8 +241,8 @@ iframe {
   }
 
   button {
-    width: 65%;
-    padding: 2%;
+    width: 85%;
+    padding: 3%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -258,8 +261,8 @@ iframe {
     margin: 0 auto;
   }
   .services-items {
-    font-size: 1.3rem;
-    line-height: 25px;
+    font-size: 2em;
+    line-height: 35px;
   }
   .home-portfolio-piece {
     padding: 10%;
@@ -273,12 +276,12 @@ iframe {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 1024px) {
   header img {
     width: 100%;
   }
   nav ul li a {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .home-title h2 {
     font-size: 2em;
@@ -296,4 +299,7 @@ iframe {
     font-size: 2.5em;
     line-height: 55px;
   }
+}
+
+@media screen and (max-width: 1200px) {
 }
