@@ -203,7 +203,7 @@ iframe {
     padding: 0%;
   }
   nav ul li a {
-    font-size: 1em;
+    font-size: 1.3em;
   }
   .home-title {
     width: 100%;
@@ -223,8 +223,8 @@ iframe {
     font-size: 2em;
   }
   .about-bio p {
-    font-size: 1.53em;
-    line-height: 35px;
+    font-size: 1.3em;
+    line-height: 30px;
   }
   nav {
     display: inline;
@@ -276,7 +276,7 @@ iframe {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
   header img {
     width: 100%;
   }
@@ -301,5 +301,5 @@ iframe {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
 }
