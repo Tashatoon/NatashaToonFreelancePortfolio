@@ -203,7 +203,7 @@ iframe {
     padding: 0%;
   }
   nav ul li a {
-    font-size: 0.5em;
+    font-size: 1em;
   }
   .home-title {
     width: 100%;
@@ -232,7 +232,7 @@ iframe {
 
   nav ul li {
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 0%;
     text-align: center;
     position: relative;
@@ -241,8 +241,8 @@ iframe {
   }
 
   button {
-    width: 85%;
-    padding: 3%;
+    width: 100%;
+    padding: 0%;
     margin: auto;
     display: flex;
     justify-content: center;
