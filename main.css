@@ -97,10 +97,11 @@ section#skills {
 .portfolio-header,
 .skills-header,
 .services-header {
+  padding-top: 15px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  font-size: 2em;
+  font-size: 2.5em;
   color: rgb(233, 71, 233);
 }
 .services-items {
@@ -141,10 +142,6 @@ button {
   border: none;
   border-radius: 15px;
 }
-.services-header {
-  text-align: right;
-  font-size: 2.5em;
-}
 
 #services article {
   width: 60%;
@@ -152,6 +149,7 @@ button {
 }
 
 #services {
+  padding-top: 20px;
   text-align: center;
   margin: 0;
 }
@@ -241,7 +239,7 @@ iframe {
   }
 
   button {
-    width: 100%;
+    width: auto;
     padding: 0%;
     margin: auto;
     display: flex;
@@ -257,7 +255,6 @@ iframe {
   .skills-header,
   .services-header {
     text-align: center;
-    padding-top: 15px;
     margin: 0 auto;
   }
   .services-items {
