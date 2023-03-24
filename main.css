@@ -325,7 +325,7 @@ iframe {
     font-size: 2em;
   }
 }
-/*added media- add to github*/
+
 @media screen and (min-width: 769px) {
   .home-portfolio-piece {
     width: 60%;
@@ -334,4 +334,7 @@ iframe {
     text-align: center;
     flex-direction: column;
   }
+}
+
+@media only screen and (min-width: 1200px) {
 }
