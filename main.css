@@ -346,4 +346,8 @@ iframe {
     display: flex;
     justify-content: space-around;
   }
+  .services-items {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 }
