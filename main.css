@@ -79,7 +79,7 @@ img {
   margin: auto 0 auto;
 }
 .skill-items {
-  font-size: 1.3em;
+  font-size: 1.7em;
   text-align: center;
 }
 section#skills {
@@ -107,7 +107,6 @@ section#skills {
 }
 .services-items {
   display: flex;
-  align-items: center;
   text-align: center;
   flex-direction: column;
   margin: 0 auto;
@@ -349,5 +348,7 @@ iframe {
   .services-items {
     display: grid;
     grid-template-columns: auto auto;
+    position: relative;
+    left: 10%;
   }
 }
