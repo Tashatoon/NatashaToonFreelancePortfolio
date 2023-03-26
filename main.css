@@ -334,10 +334,8 @@ iframe {
 
 @media only screen and (min-width: 1200px) {
   nav {
-    width: 60%;
-    font-size: 1.125em;
-    font-weight: 700;
-    text-transform: uppercase;
+    width: 100%;
+    font-size: 1.4em;
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
@@ -347,9 +345,5 @@ iframe {
     width: 100%;
     display: flex;
     justify-content: space-around;
-  }
-
-  nav ul li {
-    font-size: 1.125em;
   }
 }
