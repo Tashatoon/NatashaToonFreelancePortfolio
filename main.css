@@ -349,6 +349,18 @@ iframe {
     display: flex;
     justify-content: space-around;
   }
+  .home-title h2 {
+    font-size: 3em;
+  }
+  .home-title h3 {
+    font-size: 2.5em;
+  }
+  .about-bio h2 {
+    font-size: 3em;
+  }
+  .about-bio p {
+    font-size: 2.5em;
+  }
   .services-items {
     display: grid;
     grid-template-columns: auto auto;
