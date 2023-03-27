@@ -115,7 +115,10 @@ section#skills {
   margin-top: auto;
   text-align: center;
 }
-
+.home-portfolio-piece img {
+  width: 400px;
+  height: 400px;
+}
 #work article {
   margin: 30px 0;
 }
@@ -326,6 +329,7 @@ iframe {
     width: 60%;
     display: flex;
     align-items: center;
+
     text-align: center;
     flex-direction: column;
   }
@@ -350,5 +354,11 @@ iframe {
     grid-template-columns: auto auto;
     position: relative;
     left: 10%;
+  }
+  /*display 2 projects side by side*/
+  /*skills need to line up*/
+  .home-portfolio-piece {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 }
