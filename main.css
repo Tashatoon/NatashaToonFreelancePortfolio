@@ -348,6 +348,10 @@ iframe {
     text-align: center;
     flex-direction: column;
   }
+  button {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -385,6 +389,20 @@ iframe {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 10%;
+  }
+  .home-portfolio-piece img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -190px;
+  }
+  button {
+    width: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10px;
   }
   .portfolio-header,
   .skills-header,
