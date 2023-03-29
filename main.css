@@ -26,8 +26,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+/* Change image size*/
 .content-wrapper img {
-  width: 70%;
+  width: 90%;
 }
 .home-title {
   text-align: center;
@@ -98,7 +99,8 @@ section#skills {
 .portfolio-header,
 .skills-header,
 .services-header {
-  padding-top: 15px;
+  position: relative;
+  top: 30px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -118,6 +120,8 @@ section#skills {
 .home-portfolio-piece img {
   width: 400px;
   height: 400px;
+  position: relative;
+  top: -150px;
 }
 #work article {
   margin: 30px 0;
@@ -311,7 +315,8 @@ iframe {
   }
   .skill-items {
     display: flex;
-    justify-content: space-around;
+    align-content: center;
+    justify-content: space-evenly;
   }
   .home-portfolio-piece {
     padding: 10%;
@@ -366,8 +371,6 @@ iframe {
     position: relative;
     left: 10%;
   }
-  /*display 2 projects side by side*/
-  /*skills need to line up*/
   .home-portfolio-piece {
     display: grid;
     grid-template-columns: 50% 50%;
