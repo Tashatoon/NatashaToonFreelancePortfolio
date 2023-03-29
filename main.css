@@ -99,8 +99,6 @@ section#skills {
 .portfolio-header,
 .skills-header,
 .services-header {
-  position: relative;
-  top: 30px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -121,7 +119,7 @@ section#skills {
   width: 400px;
   height: 400px;
   position: relative;
-  top: -150px;
+  top: -190px;
 }
 #work article {
   margin: 30px 0;
@@ -138,7 +136,7 @@ section#skills {
 }
 
 button {
-  width: 30%;
+  width: 90%;
   font-size: 2em;
   cursor: pointer;
   text-align: center;
@@ -149,7 +147,7 @@ button {
   border: none;
   border-radius: 15px;
   position: relative;
-  right: -35%;
+  right: -25%;
 }
 
 #services article {
@@ -299,6 +297,10 @@ iframe {
   nav ul li a {
     font-size: 1.2em;
   }
+
+  button {
+    width: auto;
+  }
   .home-title h2 {
     font-size: 2em;
   }
@@ -328,6 +330,12 @@ iframe {
   }
   .services-items {
     font-size: 2em;
+  }
+  .home-portfolio-piece img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 30px;
   }
 }
 
