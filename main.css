@@ -138,7 +138,7 @@ section#skills {
 }
 
 button {
-  width: 100%;
+  width: 30%;
   font-size: 2em;
   cursor: pointer;
   text-align: center;
@@ -148,6 +148,8 @@ button {
   background-color: rgb(31, 38, 239);
   border: none;
   border-radius: 15px;
+  position: relative;
+  right: -35%;
 }
 
 #services article {
