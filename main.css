@@ -343,6 +343,10 @@ iframe {
     font-size: 2em;
   }
   .services-items {
+    display: flex;
+    align-items: center;
+  }
+  .services-items {
     font-size: 2em;
   }
   .portfolio-header,
@@ -368,6 +372,12 @@ iframe {
 
     text-align: center;
     flex-direction: column;
+  }
+  .services-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    left: 10%;
   }
   button {
     display: flex;
@@ -417,7 +427,7 @@ iframe {
   }
   .home-portfolio-piece img {
     width: 400px;
-    height: 400px;
+    height: 300px;
     position: relative;
     top: -190px;
   }
