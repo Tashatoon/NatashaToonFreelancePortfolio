@@ -413,16 +413,18 @@ iframe {
     position: relative;
     left: 10%;
   }
+  .portfolio-wrapper {
+    position: relative;
+    left: -10%;
+  }
   .home-portfolio-piece {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 10%;
+    grid-template-columns: 65% 65%;
+    grid-gap: 5%;
   }
   .home-portfolio-piece img {
     width: 400px;
     height: 300px;
-    position: relative;
-    top: -190px;
   }
   button {
     width: 75%;
@@ -446,6 +448,7 @@ iframe {
   .portfolio-header,
   .skills-header,
   .services-header {
+    padding-top: 20%;
     font-size: 4em;
     position: relative;
     top: -10%;
