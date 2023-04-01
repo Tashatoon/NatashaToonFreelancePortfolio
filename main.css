@@ -387,15 +387,13 @@ iframe {
 
 @media only screen and (min-width: 1200px) {
   nav {
-    display: inline-block;
+    display: inline;
   }
 
   nav ul {
     width: 100%;
     display: flex;
     font-size: 1.3em;
-    position: relative;
-    left: 10%;
   }
   .home-title h2 {
     font-size: 3em;
@@ -434,6 +432,12 @@ iframe {
     position: relative;
     left: 10px;
   }
+  .content-wrapper1 img {
+    width: 30%;
+    position: relative;
+    left: -5%;
+  }
+
   .content-wrapper button {
     width: 60%;
     position: relative;
