@@ -225,6 +225,9 @@ iframe {
   .about-content-wrapper {
     width: 100%;
   }
+  .about-bio {
+    margin: 5%;
+  }
   .about-bio h2 {
     font-size: 2em;
   }
@@ -313,9 +316,14 @@ iframe {
     left: 130px;
   }
   button {
+    width: 45%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
     position: relative;
-    left: -5%;
+    left: 10px;
   }
+
   .home-title h2 {
     font-size: 2em;
   }
@@ -324,6 +332,9 @@ iframe {
   }
   .about-content-wrapper {
     width: 100%;
+  }
+  .about-content-wrapper img {
+    width: 75%;
   }
   .about-bio h2 {
     font-size: 1.9em;
@@ -366,6 +377,13 @@ iframe {
 }
 
 @media screen and (min-width: 769px) {
+  .about-content-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .about-content-wrapper img {
+    width: 90%;
+  }
   .home-portfolio-piece {
     width: 60%;
     display: flex;
@@ -375,8 +393,12 @@ iframe {
   }
 
   button {
+    width: 45%;
+    margin: auto;
     display: flex;
     justify-content: center;
+    position: relative;
+    left: 10px;
   }
   .content-wrapper button {
     width: 60%;
