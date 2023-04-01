@@ -395,6 +395,13 @@ iframe {
     display: flex;
     font-size: 1.3em;
   }
+  .about-content-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .about-content-wrapper img {
+    width: 90%;
+  }
   .home-title h2 {
     font-size: 3em;
   }
