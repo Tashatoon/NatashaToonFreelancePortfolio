@@ -311,7 +311,7 @@ iframe {
     font-size: 1.2em;
   }
   .content-wrapper button {
-    width: 60%;
+    width: 90%;
     position: relative;
     left: 130px;
   }
@@ -475,10 +475,10 @@ iframe {
     left: -5%;
   }
 
-  .content-wrapper button {
-    width: 60%;
+  .project-link button {
+    width: 75%;
     position: relative;
-    left: 90px;
+    left: 20px;
   }
   .portfolio-header,
   .skills-header,
