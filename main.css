@@ -316,7 +316,7 @@ iframe {
     left: 130px;
   }
   button {
-    width: 45%;
+    width: 35%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -399,7 +399,7 @@ iframe {
   }
 
   button {
-    width: 45%;
+    width: 25%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -462,7 +462,7 @@ iframe {
     height: 300px;
   }
   button {
-    width: 10%;
+    width: 20%;
     margin: auto;
     display: flex;
     justify-content: center;
