@@ -14,22 +14,22 @@ body {
   color: black;
 }
 .light-mode body {
-  background: url("img/whitebackground.png");
-  padding: 25px;
-  background-size: cover;
   background-color: black;
+  background-size: cover;
+  background: url("img/whitebackground.png");
   color: white;
+  padding: 25px;
 }
 .content-wrapper,
 .portfolio-header {
-  width: 90%;
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
 }
 .content-wrapper1 img {
-  width: 30%;
-  position: relative;
   left: -5%;
+  position: relative;
+  width: 30%;
 }
 .home-title {
   text-align: center;
@@ -42,8 +42,8 @@ body {
   text-align: left;
 }
 .about-content-wrapper img {
-  width: 40%;
   border-radius: 5%;
+  width: 40%;
 }
 
 nav {
@@ -51,25 +51,25 @@ nav {
 }
 
 nav ul li {
-  width: 100%;
-  padding: 2%;
   list-style: none;
+  padding: 2%;
+  width: 100%;
 }
 
 nav ul li a {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 20px;
   color: rgb(235, 155, 235);
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 ul {
   justify-content: center;
 }
 footer ul {
-  justify-content: center;
   display: flex;
   gap: 2rem;
+  justify-content: center;
   margin-bottom: 2rem;
 }
 
@@ -92,7 +92,7 @@ section#skills {
   font-size: 3.75em;
   margin-bottom: 0px;
 }
-
+/*format in acending order*/
 .project-link {
   display: block;
 }
