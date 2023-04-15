@@ -23,8 +23,7 @@ body {
 .content-wrapper,
 .portfolio-header {
   margin: 0 auto;
-  max-width: 1200px;
-  width: 90%;
+  width: 100%;
 }
 .content-wrapper1 img {
   left: -5%;
@@ -35,7 +34,7 @@ body {
   text-align: center;
 }
 .about-content-wrapper {
-  justify-content: left;
+  justify-content: left; 
   line-height: 33px;
 }
 .about-bio {

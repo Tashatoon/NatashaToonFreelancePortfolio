@@ -1,0 +1,513 @@
+/* BEM Block,Element, Modifier*/
+
+body {
+  background: url("img/marcel-strauss-rTsTP-SiMY4-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  background: url("img/whitebackground.png");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+.light-mode body {
+  background-color: black;
+  background-size: cover;
+  background: url("img/whitebackground.png");
+  color: white;
+  padding: 25px;
+}
+.content-wrapper,
+.portfolio-header {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 90%;
+}
+.content-wrapper1 img {
+  left: -5%;
+  position: relative;
+  width: 30%;
+}
+.home-title {
+  text-align: center;
+}
+.about-content-wrapper {
+  justify-content: left;
+  line-height: 33px;
+}
+.about-bio {
+  text-align: left;
+}
+.about-content-wrapper img {
+  border-radius: 5%;
+  width: 40%;
+}
+
+nav {
+  display: inline;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 2%;
+  width: 100%;
+}
+
+nav ul li a {
+  color: rgb(235, 155, 235);
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul {
+  justify-content: center;
+}
+footer ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+.skill-items article {
+  margin: auto 0 auto;
+}
+.skill-items {
+  font-size: 1.7em;
+  text-align: center;
+}
+section#skills {
+  display: flex;
+  justify-content: center;
+}
+#skills i {
+  font-size: 3.75em;
+  margin-bottom: 0px;
+}
+/*format in acending order*/
+.project-link {
+  display: block;
+}
+
+.portfolio-header,
+.skills-header,
+.services-header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 2.5em;
+  color: rgb(233, 71, 233);
+}
+.services-items {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.portfolio-header {
+  margin-top: auto;
+  text-align: center;
+}
+.projects img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: -190px;
+}
+#work article {
+  margin: 30px 0;
+}
+
+#work .projects {
+  font-size: 1.3em;
+  display: grid;
+  margin: 0 auto;
+}
+
+#work img {
+  width: 100%;
+}
+
+button {
+  width: 90%;
+  font-size: 2em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(31, 38, 239);
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  right: -25%;
+}
+
+#services article {
+  width: 60%;
+  margin: 30px 0;
+}
+
+#services {
+  padding-top: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+#services i {
+  font-size: 3.75em;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 75%;
+  height: 100px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: rgb(233, 71, 233);
+}
+
+#contact {
+  text-align: center;
+}
+.contact-info h3 {
+  font-size: 2em;
+}
+.contact-info ul li {
+  list-style: none;
+}
+
+.contact-info img {
+  width: 150%;
+  position: relative;
+  left: -75%;
+}
+iframe {
+  width: 100%;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 0%;
+  }
+  .content-wrapper1 img {
+    width: 75%;
+    position: relative;
+    left: 12%;
+  }
+  nav {
+    display: inline;
+  }
+
+  nav ul li {
+    width: 100%;
+    font-size: 1em;
+    text-align: center;
+    position: relative;
+    right: 3%;
+    list-style: none;
+  }
+  nav ul li a {
+    font-size: 1.7em;
+  }
+  .home-title {
+    width: 100%;
+    padding: 30px 0 30px 0;
+  }
+  .home-title h2 {
+    font-size: 3em;
+  }
+  .home-title h3 {
+    font-size: 2.5em;
+  }
+  .about-content-wrapper img {
+    width: 80%;
+    border-radius: 5%;
+    position: relative;
+    left: 10%;
+  }
+  .about-content-wrapper {
+    width: 100%;
+  }
+  .about-bio {
+    margin: 5%;
+  }
+  .about-bio h2 {
+    font-size: 3em;
+  }
+  .about-bio p {
+    font-size: 2em;
+    line-height: 40px;
+  }
+
+  button {
+    width: 70%;
+    padding: 0%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 5px;
+  }
+
+  #services,
+  .content-wrapper {
+    width: 100%;
+  }
+
+  .portfolio-header,
+  .skills-header,
+  .services-header {
+    padding-top: 20%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .services-items {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    line-height: 35px;
+  }
+  .projects {
+    padding: 10%;
+  }
+  .projects img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 12px;
+  }
+  #work {
+    font-size: 1.5em;
+  }
+  #work img {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  header img {
+    width: 100%;
+  }
+  nav {
+    display: inline;
+  }
+  nav ul li {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    right: 3%;
+    list-style: none;
+  }
+  nav ul li a {
+    font-size: 1.2em;
+  }
+  .content-wrapper button {
+    width: 90%;
+    position: relative;
+    left: 130px;
+  }
+  button {
+    width: 35%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+  }
+
+  .home-title h2 {
+    font-size: 2em;
+  }
+  .home-title h3 {
+    font-size: 1.5em;
+  }
+  .about-content-wrapper {
+    width: 100%;
+  }
+  .about-content-wrapper img {
+    width: 80%;
+    position: relative;
+    left: 10%;
+  }
+  .about-bio h2 {
+    font-size: 1.9em;
+  }
+  .about-bio p {
+    font-size: 1.5em;
+    line-height: 45px;
+  }
+  .skill-items {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+  }
+  .projects {
+    padding: 10%;
+  }
+  #work .projects {
+    font-size: 2em;
+  }
+  .services-items {
+    display: flex;
+    align-items: center;
+  }
+  .services-items {
+    font-size: 2em;
+  }
+  .portfolio-header,
+  .skills-header,
+  .services-header {
+    padding-top: 20%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .projects img {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-bio {
+    font-size: 1.5em;
+    line-height: 3%;
+  }
+  .about-content-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .about-content-wrapper img {
+    width: 90%;
+  }
+  .projects {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  button {
+    width: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+  }
+  .content-wrapper button {
+    width: 60%;
+    position: relative;
+    left: 175px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    display: inline;
+  }
+
+  nav ul {
+    width: 95%;
+    display: flex;
+    position: relative;
+    left: 5%;
+    font-size: 1.3em;
+  }
+
+  .about-content-wrapper {
+    word-wrap: inherit;
+  }
+  .about-content-wrapper img {
+    width: 90%;
+  }
+  .home-title h2 {
+    font-size: 3em;
+  }
+  .home-title h3 {
+    font-size: 2.8em;
+  }
+  .about-bio h2 {
+    font-size: 2em;
+  }
+  .about-bio p {
+    font-size: 1.8em;
+  }
+  .services-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    left: 10%;
+  }
+  .skill-items {
+    font-size: 2.5em;
+  }
+  .portfolio-wrapper {
+    position: relative;
+    left: -10%;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: 65% 65%;
+    grid-gap: 5%;
+  }
+  .projects img {
+    width: 400px;
+    height: 300px;
+  }
+  button {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+  }
+  .content-wrapper1 img {
+    width: 30%;
+    position: relative;
+    left: -5%;
+  }
+
+  .project-link button {
+    width: 75%;
+    position: relative;
+    left: 20px;
+  }
+  .portfolio-header,
+  .skills-header,
+  .services-header {
+    padding-top: 20%;
+    font-size: 4em;
+    position: relative;
+    top: -10%;
+  }
+}
