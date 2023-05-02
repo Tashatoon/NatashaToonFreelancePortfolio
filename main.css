@@ -35,7 +35,7 @@ body {
 }
 .about-content-wrapper {
   justify-content: left; 
-  line-height: 33px;
+  line-height: 45px;
 }
 .about-bio {
   text-align: left;
@@ -456,7 +456,8 @@ iframe {
     font-size: 2em;
   }
   .about-bio p {
-    font-size: 1.8em;
+    font-size: 1.5em;
+    line-height: 55px;
   }
   .services-items {
     display: grid;
