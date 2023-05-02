@@ -380,7 +380,6 @@ iframe {
   .portfolio-header,
   .skills-header,
   .services-header {
-  
     text-align: center;
     margin: 0 auto;
   }
@@ -504,7 +503,7 @@ iframe {
   .skills-header,
   .services-header {
     font-size: 4em;
-    padding: 10%;
+   
     position: relative;
     top: -10%;
   }
