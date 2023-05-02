@@ -157,12 +157,11 @@ button {
 
 #services {
   margin: 0;
-  padding-top: 20px;
   text-align: center;
 }
 
 #services i {
-  font-size: 3.75em;
+  font-size: 1em;
   margin-bottom: 15px;
 }
 
@@ -278,7 +277,6 @@ iframe {
   .skills-header,
   .services-header {
     margin: 0 auto;
-    padding-top: 20%;
     text-align: center;
   }
   .services-items {
@@ -382,7 +380,7 @@ iframe {
   .portfolio-header,
   .skills-header,
   .services-header {
-    padding-top: 20%;
+  
     text-align: center;
     margin: 0 auto;
   }
@@ -505,7 +503,7 @@ iframe {
   .skills-header,
   .services-header {
     font-size: 4em;
-    padding-top: 20%;
+    padding: 10%;
     position: relative;
     top: -10%;
   }
