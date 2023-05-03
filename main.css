@@ -95,7 +95,9 @@ section#skills {
 .project-link {
   display: block;
 }
-
+.project-link button {
+  font-size: x-large;
+  }
 .portfolio-header,
 .skills-header,
 .services-header {
@@ -185,6 +187,7 @@ input[type="submit"] {
 }
 
 #contact {
+  padding: 10%;
   text-align: center;
 }
 .contact-info h3 {
@@ -255,7 +258,7 @@ iframe {
   }
   .about-bio p {
     font-size: 2em;
-    line-height: 40px;
+    line-height: 10px;
   }
 
   button {
@@ -356,8 +359,8 @@ iframe {
     font-size: 1.9em;
   }
   .about-bio p {
-    font-size: 1.5em;
-    line-height: 45px;
+    font-size: 1em;
+    line-height: 35px;
   }
   .skill-items {
     align-content: center;
@@ -485,7 +488,6 @@ iframe {
     justify-content: center;
     left: 10px;
     margin: auto;
-    position: relative;
     width: 20%;
   }
   .content-wrapper1 img {
@@ -495,9 +497,7 @@ iframe {
   }
 
   .project-link button {
-    left: 20px;
-    position: relative;
-    width: 75%;
+  font-size: x-large;
   }
   .portfolio-header,
   .skills-header,
