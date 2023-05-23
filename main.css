@@ -389,7 +389,7 @@ iframe {
   .projects img {
     height: 200px;
     position: relative;
-    top: 30px;
+    top: 10px;
     width: 300px;
   }
 }
