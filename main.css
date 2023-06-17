@@ -309,7 +309,21 @@ iframe {
   }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (max-width: 1200) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+
+}
+ 
+
+
+ @media screen and (min-width: 481px) {
   header img {
     width: 100%;
   }
@@ -507,4 +521,4 @@ iframe {
     position: relative;
     top: -10%;
   }
-}
+} 
