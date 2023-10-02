@@ -98,9 +98,15 @@ section#skills {
 .project-link button {
   font-size: x-large;
   }
+  .mySlides {
+    display: flex;
+    justify-content: center;
+  }
+  
 .portfolio-header,
 .skills-header,
-.services-header {
+.services-header,
+.projects-header {
   color: rgb(233, 71, 233);
   display: flex;
   font-size: 2.5em;
