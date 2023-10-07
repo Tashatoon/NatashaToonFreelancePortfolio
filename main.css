@@ -99,9 +99,17 @@ section#skills {
   font-size: x-large;
   }
   .mySlides {
+    width: 85%;
    position: relative;
-   left: 65%;
+   left: 85%;
   }
+
+.figma-design {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  padding: 5%;
+}
   
 .portfolio-header,
 .skills-header,
